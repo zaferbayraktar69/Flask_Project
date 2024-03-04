@@ -1,22 +1,26 @@
 
 # Start rabbitMq
 ## sudo rabbitmq-server
-<img width="1097" alt="Ekran Resmi 2024-03-01 17 07 06" src="https://github.com/PISAGOOR/Flask_Project/assets/60022825/4f0bf8aa-f0ff-4553-bc3e-3d3dff4fa607">
+<img width="1097" alt="Ekran Resmi 2024-03-04 09 59 40" src="https://github.com/zaferbayraktar69/Flask_Project/assets/60022825/6781d388-fd8a-4b76-baba-93aaae49dd15">
+
 
 # 1 Terminal
 ## python main.py
-<img width="1680" alt="Ekran Resmi 2024-03-01 17 01 40" src="https://github.com/PISAGOOR/Flask_Project/assets/60022825/989e4516-a506-4764-99e3-880298d9b38d">
--------------------
+<img width="968" alt="Ekran Resmi 2024-03-04 10 01 29" src="https://github.com/zaferbayraktar69/Flask_Project/assets/60022825/0a6ceeb5-419c-4f4d-a500-a0dfe51977b3">
+
+
 
 # 2 Terminal
 ## celery -A main.celery worker --loglevel=info
-<img width="1680" alt="Ekran Resmi 2024-03-01 17 02 48" src="https://github.com/PISAGOOR/Flask_Project/assets/60022825/f14c0e36-c4b9-4db0-8d7f-5ae7d18e8071">
--------------------
+<img width="1185" alt="Ekran Resmi 2024-03-04 10 02 37" src="https://github.com/zaferbayraktar69/Flask_Project/assets/60022825/5292d055-127e-443e-bcfb-5870e471dede">
+
+
 
 # 3 Terminal
 ## celery -A main.celery beat --loglevel=info
-<img width="1680" alt="Ekran Resmi 2024-03-01 17 03 32" src="https://github.com/PISAGOOR/Flask_Project/assets/60022825/0e66ac0f-491c-4296-951b-a7a6f315d926">
--------------------
+<img width="1185" alt="Ekran Resmi 2024-03-04 10 03 06" src="https://github.com/zaferbayraktar69/Flask_Project/assets/60022825/b99cf1e9-ca44-41ea-8c14-7527a281cbae">
 
 
-
+# RabbitMq Admin Panel
+## http://localhost:15672/#/
+<img width="1555" alt="Ekran Resmi 2024-03-04 10 04 12" src="https://github.com/zaferbayraktar69/Flask_Project/assets/60022825/5507df8a-28a2-446d-8dd5-e87ca33461af">
